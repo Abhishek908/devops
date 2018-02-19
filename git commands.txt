@@ -1,0 +1,35 @@
+git config --global user.name Abhishek Saxena
+git config --global user.email ssaxenaabhishek@gmail.com
+
+go to your local repo folder and then run . This command turns a directory into an empty Git repository. 
+This is the first step in creating a repository.  After running git init, adding and committing files/directories is possible.
+git init (this will initialize your local repo).
+
+Add one or more files to staging:
+git add <filename>
+git add *
+
+Commit changes to head (but not yet to the remote repository)
+git commit -m "Commit message"
+
+Commit any files you've added with git add, and also commit any files you've changed since then
+git commit -a
+
+Send changes to the master branch of your remote repository
+git push origin master
+
+List the files you've changed and those you still need to add or commit
+git status
+
+Connect to a remote repository
+git remote add origin <server>
+
+List all currently configured remote repo
+git remote -v
+
+To start working in a different branch, use git checkout to switch branches.
+git checkout branchname
+
+git branch branchname
+git branch -a (list)
+git branch -d branchname (delete)
