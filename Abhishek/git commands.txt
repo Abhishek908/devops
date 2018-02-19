@@ -33,3 +33,6 @@ git checkout branchname
 git branch branchname
 git branch -a (list)
 git branch -d branchname (delete)
+
+To clone remote repo to local repo and sync them
+git clone git@github.com:Abhishek908/devops.git
