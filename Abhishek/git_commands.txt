@@ -34,4 +34,8 @@ git branch branchname
 git branch -a (list)
 git branch -d branchname (delete)
 
-git diff HEAD~1 HEAD -- friday1.txt  (differnce between file contents between commits.)
+git diff HEAD~1 HEAD -- git_commands.txt  (differnce between file contents between commits)
+
+git log -p -2 friday1.txt (to chcek the difference between last 2 commits for a file)
+
+git checkout commitnumber (to move the older version).
